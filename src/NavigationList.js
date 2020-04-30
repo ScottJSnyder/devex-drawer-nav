@@ -3,8 +3,10 @@ import List from "devextreme-react/list";
 import history from "./history";
  
 const navigation = [
-    { id: 1, text: "Home", icon: "message", filePath: "home" },
-    { id: 2, text: "About", icon: "check", filePath: "about" }
+    { id: 1, text: "Inbox", icon: "message", filePath: "inbox" },
+    { id: 2, text: "Sent Mail", icon: "check", filePath: "sent-mail" },
+    { id: 3, text: "Trash", icon: "trash", filePath: "trash" },
+    { id: 4, text: "Spam", icon: "mention", filePath: "spam" }
 ];
  
 class NavigationList extends React.PureComponent {
